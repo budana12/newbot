@@ -49,8 +49,8 @@ watermark_text = "🅢🅐🅚🅢🅗🅐🅜™"
 credit =("🅢🅐🅚🅢🅗🅐🅜™") 
 OWNER = int(os.environ.get("OWNER",5435086550))
 try: 
-    ADMINS=[5435086550] 
-    for x in (os.environ.get("ADMINS", "5435086550").split()):  
+    ADMINS=[6520378417] 
+    for x in (os.environ.get("ADMINS", "6520378417").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -66,12 +66,12 @@ api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NS
 token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'
     
 # Define the owner's user ID
-OWNER_ID = 5435086550 # Replace with the actual owner's user ID
+OWNER_ID = 6520378417 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [5435086550]
+SUDO_USERS = [6520378417]
 
-AUTH_CHANNEL = -1002422810226
+AUTH_CHANNEL = -2631081956
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
