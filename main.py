@@ -47,7 +47,7 @@ zipimg = "https://i.postimg.cc/C5T2SN20/photo-2025-04-02-18-19-12.jpg"
 
 watermark_text = "🅢🅐🅚🅢🅗🅐🅜™"
 credit =("🅢🅐🅚🅢🅗🅐🅜™") 
-OWNER = int(os.environ.get("OWNER",5435086550))
+OWNER = int(os.environ.get("OWNER",6520378417))
 try: 
     ADMINS=[6520378417] 
     for x in (os.environ.get("ADMINS", "6520378417").split()):  
@@ -71,7 +71,7 @@ OWNER_ID = 6520378417 # Replace with the actual owner's user ID
 # List of sudo users (initially empty or pre-populated)
 SUDO_USERS = [6520378417]
 
-AUTH_CHANNEL = -2631081956
+AUTH_CHANNEL = -1002631081956
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
